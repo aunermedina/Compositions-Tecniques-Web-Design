@@ -1,0 +1,50 @@
+* {
+}
+
+.encabezado,
+.pie-pag {
+    background-color: grey;
+    color: white;
+    padding: 15px;
+}
+
+.columna {
+   
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.menu {
+    width: 25%;
+    float: left;
+}
+
+.contenido {
+    width: 75%;
+    background-color: lightblue;
+    float: right;
+    box-sizing: border-box;
+    padding: 10px;
+
+}
+
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    background-color: #33b5e5;
+    color: #ffffff;
+    margin: 10px;
+    padding: 5px;
+}
+
+.menu li:hover {
+    background-color: #0099cc;
+}
