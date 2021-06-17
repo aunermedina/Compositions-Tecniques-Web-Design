@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <title>U3 - Integradora</title>
+</head>
+
+<body>
+  <header class="header">
+    <nav class="navbar">
+        <a href="#" class="nav-logo">Menú</a>
+        <ul class="nav-menu" id="nav-menu">
+            <li class="nav-item">
+                <a href="#" class="nav-link">Vinculo 1</a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link">Vinculo 2</a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link">Vinculo 3</a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link">Vinculo 4</a>
+            </li>
+        </ul>
+        <a class="hamburger"> </a>
+    </nav>
+</header>
+
+<script>
+  const hamburger = document.querySelector(".hamburger");
+  const navMenu = document.querySelector(".nav-menu");
+
+  hamburger.addEventListener("click", showMenu);
+
+  function showMenu() {
+      navMenu.classList.toggle("active");
+  }
+
+</script>
+</body>
+
+</html>
